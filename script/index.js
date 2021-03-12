@@ -25,7 +25,7 @@ function openChat() {
     btnChat = document.getElementById("btn-chat");
     chatSide = document.getElementById("chat-side");
     if (statusChat === true) {
-        status = false;
+        statusChat = false;
         chatSide.style.right = "-20px";
         btnChat.style.left = "0";
         chatSide.style.display = "flex";
