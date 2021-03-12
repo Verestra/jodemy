@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Kanit' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/activity.css">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <button type="button">&#x2630;</button>
+    </div>
+    <div class="container-fluid">
+        <nav class="menu-main">
+            <div class="menu-profile" onclick="window.location='/Profile.html';">
+                <div class="menu_notif"><img src="/assets/Notif Icon.png" alt="Notif Icon.png"></div>
+                <div class="menu_picture"><img src="/assets/Profile Picture.png" alt="Profile Picture.png"></div>
+                <div class="menu_name">Emir Kharisma</div>
+                <div class="menu_status">online</div>
+            </div>
+            <div class="menu-list">
+                <div class="menu_dashboard" onclick="window.location='/Dashboard.html';"><img
+                        src="assets/Dashboard Icon.png" alt="Dashboard Icon.png"><span>Dashboard</span></div>
+                <div class="menu_activity" onclick="window.location='/Activity.html';"><img
+                        src="assets/Activity Icon.png" alt="Activity Icon.png"><span>Activity</span></div>
+                <div class="menu_help" onclick="window.location='#';"><img src="assets/Help Icon.png"
+                        alt="Help Icon.png"><span>Help</span></div>
+                <div class="menu_logout" onclick="window.location='/Login.html';"><img src="assets/Logout Icon.png"
+                        alt="Logout Icon.png"><span>Logout</span>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <header>
+                <h3>Activity</h3>
+            </header>
+            <div class="my-class" style="overflow-x: auto;">
+                <h6>My class</h6>
+                <table>
+                    <thead>
+                        <tr>
+                            <th><input type="checkbox" name="" id=""></th>
+                            <th>Class Name</th>
+                            <th>Category</th>
+                            <th>Description</th>
+                            <th>Progress</th>
+                            <th>Status</th>
+                            <th colspan="1">Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox" name="" id=""></td>
+                            <td>Front-end fundamentals</td>
+                            <td>Software</td>
+                            <td>Learn the fundamentals</td>
+                            <td>
+                                <div class="progress">
+                                    <span class="title">80</span>
+                                    <div class="overlay"></div>
+                                    <div class="left" style="transform:rotate(-72deg);z-index: 1;"></div>
+                                    <div class="right" style="transform: rotate(180deg);"></div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="status-my-class">Ongoing</div>
+                            </td>
+                            <td style="text-align:center;font-size:22px;color: #51E72B;font-weight: 900;">86 </td>
+                            <td>&#x22EE;</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="" id=""></td>
+                            <td>HTML for beginners</td>
+                            <td>Software</td>
+                            <td>HTML from scratch</td>
+                            <td>
+                                <div class="progress">
+                                    <span class="title">25</span>
+                                    <div class="overlay"></div>
+                                    <div class="left" style="transform:rotate(90deg);"></div>
+                                    <div class="right" style="transform: rotate(90deg);"></div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="status-my-class">Ongoing</div>
+                            </td>
+                            <td style="text-align:center;font-size:22px;color: #51E72B;font-weight: 900;">71 </td>
+                            <td>&#x22EE;</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="" id=""></td>
+                            <td>History of Europe</td>
+                            <td>History</td>
+                            <td>The history of Europe concerns itself...</td>
+                            <td>
+                                <div class="progress">
+                                    <span class="title">69</span>
+                                    <div class="overlay"></div>
+                                    <div class="left" style="transform:rotate(-111.6deg);z-index: 1;"></div>
+                                    <div class="right" style="transform: rotate(180deg);"></div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="status-my-class">Ongoing</div>
+                            </td>
+                            <td style="text-align:center;font-size:22px;color: #CCE72B;font-weight: 900;">62</td>
+                            <td>&#x22EE;</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="8"><a href="/My-class.html">view all ></a></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="new-class" style="overflow-x: auto;">
+                <h6>New class</h6>
+                <div class="search-new-class">
+                    <input type="search" name="input-search" id="" placeholder="Quick Search">
+                    <label for="input-search"><img src="/assets/Search Icon.png" alt="Search Icon.png"></label>
+                    <button class="btn btn-search">Search</button>
+                </div>
+                <div class="search-filter">
+                    <div>
+                        Categories <img src="/assets/back-icon.png" alt="back-icon.png">
+                    </div>
+                    <div>
+                        Level <img src="/assets/back-icon.png" alt="back-icon.png">
+                    </div>
+                    <div>
+                        Pricing <img src="/assets/back-icon.png" alt="back-icon.png">
+                    </div>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Class Name</th>
+                            <th>Category</th>
+                            <th>Description</th>
+                            <th>Level</th>
+                            <th colspan="2">Pricing</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr onclick="window.location='/Class-detail.html';">
+                            <td>Know more Javascript</td>
+                            <td>Software</td>
+                            <td>Javascript from the basic for...</td>
+                            <td>Beginner</td>
+                            <td>Free</td>
+                            <td>
+                                <div class="new-class-register">Register</div>
+                            </td>
+                            <td>&#x22EE;</td>
+                        </tr>
+                        <tr>
+                            <td>HTML and CSS to code</td>
+                            <td>Software</td>
+                            <td>Start combining HTML and CSS to...</td>
+                            <td>Intermediate</td>
+                            <td>$10</td>
+                            <td>
+                                <div class="new-class-register">Register</div>
+                            </td>
+                            <td>&#x22EE;</td>
+                        </tr>
+                        <tr>
+                            <td>Indonesian war history</td>
+                            <td>History</td>
+                            <td>From the first colonization until...</td>
+                            <td>Advance</td>
+                            <td>$50</td>
+                            <td>
+                                <div class="new-class-register">Register</div>
+                            </td>
+                            <td>&#x22EE;</td>
+                        </tr>
+                        <tr>
+                            <td>Budhism and Modern Psychology</td>
+                            <td>Psychology</td>
+                            <td>Budhism and science are deeply...</td>
+                            <td>Beginner</td>
+                            <td>Free</td>
+                            <td>
+                                <div class="new-class-register">Register</div>
+                            </td>
+                            <td>&#x22EE;</td>
+                        </tr>
+                        <tr>
+                            <td>Financial markets</td>
+                            <td>Finance</td>
+                            <td>An overview of the ideas, methods...</td>
+                            <td>Intermediate</td>
+                            <td>$10</td>
+                            <td>
+                                <div class="new-class-register">Register</div>
+                            </td>
+                            <td>&#x22EE;</td>
+                        </tr>
+                        <tr>
+                            <td>Corporate finance</td>
+                            <td>Finance</td>
+                            <td>Introduction to the fundamentals</td>
+                            <td>Advance</td>
+                            <td>$50</td>
+                            <td>
+                                <div class="new-class-register">Register</div>
+                            </td>
+                            <td>&#x22EE;</td>
+                        </tr>
+                        <tr>
+                            <td>Algoritm specialization</td>
+                            <td>Math</td>
+                            <td>Learn to think like computer...</td>
+                            <td>Advance</td>
+                            <td>$50</td>
+                            <td>
+                                <div class="new-class-register">Register</div>
+                            </td>
+                            <td>&#x22EE;</td>
+                        </tr>
+                        <tr>
+                            <td>Business and Financial Modeling</td>
+                            <td>Software</td>
+                            <td>Designed to help you make...</td>
+                            <td>Beginner</td>
+                            <td>Free</td>
+                            <td>
+                                <div class="new-class-register">Register</div>
+                            </td>
+                            <td>&#x22EE;</td>
+                        </tr>
+                        <tr>
+                            <td>Marketing in a Digital World</td>
+                            <td>Software</td>
+                            <td>This class examines how digital...</td>
+                            <td>Intermediate</td>
+                            <td>$10</td>
+                            <td>
+                                <div class="new-class-register">Register</div>
+                            </td>
+                            <td>&#x22EE;</td>
+                        </tr>
+                        <tr>
+                            <td>Social Psychology</td>
+                            <td>Psychology</td>
+                            <td>This class offers some answers...</td>
+                            <td>Advance</td>
+                            <td>$50</td>
+                            <td>
+                                <div class="new-class-register">Register</div>
+                            </td>
+                            <td>&#x22EE;</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="footer-table-newclass">
+                    <div>Showing 10 out of 64</div>
+                    <div class="list-page-newclass">
+                        <div class="rectangle-shadow">&#x3c;</div>
+                        <div class="rectangle-shadow rectangle_on">1</div>
+                        <div class="rectangle-shadow">2</div>
+                        <div class="rectangle-shadow">3</div>
+                        <div class="rectangle-shadow">4</div>
+                        <div class="rectangle-shadow">5</div>
+                        <div>...</div>
+                        <div class="rectangle-shadow">&#x3e;</div>
+                        <div>
+                        </div>
+                    </div>
+        </main>
+    </div>
+</body>
+
+</html>
