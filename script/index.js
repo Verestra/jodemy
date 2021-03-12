@@ -5,7 +5,7 @@ function openNav() {
     navSide = document.getElementById("nav-side");
     if (status === true) {
         status = false;
-        navSide.style.left = "0px";
+        navSide.style.left = "0";
         btnNav.style.marginLeft = "230px";
         navSide.style.display = "flex";
         navSide.style.zIndex = "2";
