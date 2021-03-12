@@ -177,23 +177,48 @@
 }
 @media only screen and (max-width:600px){
     .category-icon{
-        width: 100px;
-        height: 100px;
-        left: -110px;
-        bottom: -50px;
+        width: 65px;
+        height: 65px;
+        left: -70px;
+        bottom: -30px;
     }
     .class-detail-head{
-        height: 150px;
+        height: 100px;
     }
     .class-head-text{
-        font-size: 16px;
+        font-size: 12px;
     }
     .head-text-detail{
-        font-size: 8px;
+        font-size: 6px;
     }
     .new-class-register{
-        width: 60px;
-        font-size: 10px;
+        width: 40px;
+        font-size: 6px;
         right: 10px;
+    }
+    .class-detail-body{
+        padding: 10px;
+    }
+    .detail-body-head{
+        height: 50px;
+    }
+    .class-detail-body>h6{
+        font-size: 14px;
+    }
+    .section-class-detail{
+        border-bottom: 0.5px solid #000;
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+    }
+    .section-class-detail> .section-option{
+        color: #000;
+        font-size: 10px;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    .section-class-detail> .option-selected{
+        color: #5784BA;
+        border-bottom: 3px solid #5784BA;
     }
 }
