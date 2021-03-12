@@ -27,16 +27,16 @@ function openChat() {
     if (statusChat === true) {
         status = false;
         chatSide.style.right = "-20px";
-        btnChat.style.marginRight = "calc(-100vw + 60px)";
+        btnChat.style.left = "0";
         chatSide.style.display = "flex";
-        chatSide.style.zIndex = "2";
+        chatSide.style.zIndex = "3";
         chatSide.style.top = "-20px";
         chatSide.style.width = "calc(100vw - 60px";
     } else {
         statusChat = true;
         chat.style.width = "30%";
         chatSide.style.right = "0";
-        btnChat.style.marginRight = "0";
+        btnChat.style.right = "0";
         chatSide.style.top = "0";
         chatSide.style.display = "none";
         chatSide.style.zIndex = "1";
