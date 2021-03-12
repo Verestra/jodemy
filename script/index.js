@@ -13,11 +13,11 @@ function openNav() {
         navSide.style.top = "-20px";
     } else {
         status = true;
-        navSide.style.left = "-250px";
-        btnNav.style.marginLeft = "0px";
-        navSide.style.top = "0";
-        navSide.style.display = "none";
-        navSide.style.zIndex = "1";
+        navSide.style.left = null;
+        btnNav.style.marginLeft = null;
+        navSide.style.top = null;
+        navSide.style.display = null;
+        navSide.style.zIndex = null;
     }
 }
 
@@ -31,15 +31,14 @@ function openChat() {
         chatSide.style.display = "flex";
         chatSide.style.zIndex = "3";
         chatSide.style.top = "-20px";
-        chatSide.style.width = "calc(100vw - 60px";
+        chatSide.style.width = "calc(100vw - 60px)";
     } else {
         statusChat = true;
-        chatSide.style.width = "30%";
-        chatSide.style.right = "0";
-        btnChat.style.right = "0";
+        chatSide.style.right = null;
         btnChat.style.left = null;
-        chatSide.style.top = "0px";
-        chatSide.style.display = "none";
-        chatSide.style.zIndex = "1";
+        chatSide.style.display = null;
+        chatSide.style.zIndex = null;
+        chatSide.style.top = null;
+        chatSide.style.width = null;
     }
 }
