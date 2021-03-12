@@ -37,6 +37,7 @@ function openChat() {
         chatSide.style.width = "30%";
         chatSide.style.right = "0";
         btnChat.style.right = "0";
+        btnChat.style.left = null;
         chatSide.style.top = "0px";
         chatSide.style.display = "none";
         chatSide.style.zIndex = "1";
