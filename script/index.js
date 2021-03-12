@@ -30,12 +30,14 @@ function openChat() {
         btnChat.style.left = "0";
         chatSide.style.display = "flex";
         chatSide.style.zIndex = "5";
+        btnSide.style.zIndex = "5";
         chatSide.style.top = "-20px";
         chatSide.style.width = "calc(100vw - 60px)";
     } else {
         statusChat = true;
         chatSide.style.right = null;
         btnChat.style.left = null;
+        btnSide.style.zIndex = null;
         chatSide.style.display = null;
         chatSide.style.zIndex = null;
         chatSide.style.top = null;
