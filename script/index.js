@@ -5,9 +5,11 @@ function openNav() {
     navSide = document.getElementById("nav-side");
     if (status === true) {
         status = false;
-        navSide.style.left = "20px";
-        btnNav.style.marginLeft = "250px";
+        navSide.style.left = "0px";
+        btnNav.style.marginLeft = "230px";
         navSide.style.display = "flex";
+        navSide.style.zIndex = "2";
+        navSide.style.top = "0";
     } else {
         status = true;
         navSide.style.left = "-250px";
