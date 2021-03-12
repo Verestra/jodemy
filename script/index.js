@@ -34,10 +34,10 @@ function openChat() {
         chatSide.style.width = "calc(100vw - 60px";
     } else {
         statusChat = true;
-        chat.style.width = "30%";
+        chatSide.style.width = "30%";
         chatSide.style.right = "0";
         btnChat.style.right = "0";
-        chatSide.style.top = "0";
+        chatSide.style.top = "0px";
         chatSide.style.display = "none";
         chatSide.style.zIndex = "1";
     }
