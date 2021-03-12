@@ -7,10 +7,10 @@ function openNav() {
         status = false;
         navSide.style.left = "20px";
         btnNav.style.marginLeft = "250px";
+        navSide.style.display = "flex";
     } else {
         status = true;
         navSide.style.left = "-250px";
         btnNav.style.marginLeft = "0px";
-        navSide.style.display = "flex";
     }
 }
