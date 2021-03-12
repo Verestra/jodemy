@@ -11,5 +11,6 @@ function openNav() {
         status = true;
         navSide.style.left = "-250px";
         btnNav.style.marginLeft = "0px";
+        navSide.style.display = "flex";
     }
 }
