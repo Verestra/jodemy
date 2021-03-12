@@ -5,14 +5,17 @@ function openNav() {
     navSide = document.getElementById("nav-side");
     if (status === true) {
         status = false;
-        navSide.style.left = "0";
+        navSide.style.left = "-20px";
         btnNav.style.marginLeft = "230px";
         navSide.style.display = "flex";
         navSide.style.zIndex = "2";
-        navSide.style.top = "0";
+        navSide.style.top = "-20px";
     } else {
         status = true;
         navSide.style.left = "-250px";
         btnNav.style.marginLeft = "0px";
+        navSide.style.top = "0";
+        navSide.style.display = "none";
+        navSide.style.zIndex = "1";
     }
 }
