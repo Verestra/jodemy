@@ -5,22 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Activity</title>
+    <title>Profile</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Kanit' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/activity.css">
-    <link rel="stylesheet" href="assets/css/class-detail.css">
-    <link rel="stylesheet" href="assets/css/class-progress.css">
+    <link rel="stylesheet" href="assets/css/dashboard.css">
 </head>
 
 <body>
     <div class="nav-bar">
-        <button id="btn-nav" type="button" onclick="openNav();">&#x2630;</button>
+        <button id="btn-nav" type="button" onclick="openNav()">&#x2630;</button>
     </div>
+    <button id="btn-chat" class="btn-chat" type="button" onclick="openChat()"><img src="/assets/dashboard/chat.png"
+            alt=""></button>
     <div class="container-fluid">
         <nav id="nav-side" class="menu-main">
             <div class="menu-profile" onclick="window.location='/Profile.html';">
@@ -43,121 +42,235 @@
         </nav>
         <main>
             <header>
-                <a href="/Activity.html"><img src="/assets/back-icon.png" alt="back-icon.png"></a>
-                <h3>Know More Javascript</h3>
-            </header>
-            <div class="class-detail">
-                <div class="class-detail-head">
-                    <div class="foreground">
-                        <div class="class-head-text">
-                            <div class="category-icon"><img src="assets/activity/Software Icon.png"
-                                    alt="Software Icon.png"></div>
-                            <div class="title-class">Know More Javascript</div>
-                            <div class="head-text-detail">Level : Beginner</div>
-                            <div class="head-text-detail">Category : Software</div>
-                            <div class="head-text-detail">Price : Free</div>
-                            <div class="score-display">
-                                <div class="label-score">Your Score</div>86
-                            </div>
+                <div style="padding: 10px;">News</div>
+                <div class="news-picture">
+                    <img src="/assets/dashboard/news-picture.png" alt="news-picture.png">
+                    <div class="shadow-picture">
+                        <div class="news-title">New update for front end development class sylabus!</div>
+                        <div class="navigation-point">
+                            <div class="point point-selected"></div>
+                            <div class="point"></div>
+                            <div class="point"></div>
+                            <div class="point"></div>
                         </div>
                     </div>
                 </div>
-                <div class="class-detail-body">
-                    <div class="detail-body-head">
-                        <div class="detail-void"></div>
-                        <div class="line-percent">
-                            80% to complete
+            </header>
+            <div class="all-schedule">
+                <div class="header-schedule">
+                    <div class="title-schedule">
+                        <div class="date-now">Today, October 16</div>
+                        <img src="/assets/dashboard/Calendar Icon.png" alt="Calendar Icon.png">
+                    </div>
+                    <div class="date-week">
+                        <div class="day-description">
+                            <div class="name-day">Mo</div>
+                            <div class="date-day">12</div>
+                        </div>
+                        <div class="day-description">
+                            <div class="name-day">Tu</div>
+                            <div class="date-day">13</div>
+                        </div>
+                        <div class="day-description">
+                            <div class="name-day">We</div>
+                            <div class="date-day">14</div>
+                        </div>
+                        <div class="day-description">
+                            <div class="name-day">Th</div>
+                            <div class="date-day">15</div>
+                        </div>
+                        <div class="day-description day-selected">
+                            <div class="name-day">Fr</div>
+                            <div class="date-day">16</div>
+                        </div>
+                        <div class="day-description">
+                            <div class="name-day">Sa</div>
+                            <div class="date-day">17</div>
+                        </div>
+                        <div class="day-description">
+                            <div class="name-day">Su</div>
+                            <div class="date-day">18</div>
                         </div>
                     </div>
-                    <div class="section-class-detail">
-                        <a href="/Class-detail.html" class="section-option">
-                            Information
-                        </a>
-                        <a href="#" class="section-option option-selected">
-                            Class Progress
-                        </a>
-                        <a href="#" class="section-option">
-                            Class Discussion
-                        </a>
+                    <div class="option-schedule">
+                        <a class="option-schedule-selected" href="#">All schedule</a>
+                        <a class="" href="Dashboard-for-you.html">For you</a>
                     </div>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td><input type="checkbox" name="" id=""></td>
-                                <td>HTML Essential Training</td>
-                                <td>You have completed this topic</td>
-                                <td style="text-align:center;font-size:22px;color: #2BE7D0;font-weight: 900;">100</td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" name="" id=""></td>
-                                <td>CSS Essential Training</td>
-                                <td>You have completed this topic</td>
-                                <td style="text-align:center;font-size:22px;color: #E7852B;font-weight: 900;">42</td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" name="" id=""></td>
-                                <td>Javascript Essential Training</td>
-                                <td>You have completed this topic</td>
-                                <td style="text-align:center;font-size:22px;color: #E6422B;font-weight: 900;">21</td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" name="" id=""></td>
-                                <td>Responsive Layout</td>
-                                <td>You have completed this topic</td>
-                                <td style="text-align:center;font-size:22px;color: #2BE7D0;font-weight: 900;">98</td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" name="" id=""></td>
-                                <td>Mid-term Exam</td>
-                                <td>You have completed this topic</td>
-                                <td style="text-align:center;font-size:22px;color: #51E72B;font-weight: 900;">86</td>
-                            </tr>
-                            <td><input type="checkbox" name="" id=""></td>
-                            <td>Bootstrap4 Essential Training</td>
-                            <td>You have completed this topic</td>
-                            <td style="text-align:center;font-size:22px;color: #7EE72B;font-weight: 900;">72</td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" name="" id=""></td>
-                                <td>Sass Essential Training</td>
-                                <td>Friday, 6 November 2020 08.00 - 09.40</td>
-                                <td style="text-align:center;font-size:16px;color: #FFF;font-weight: 900;"></td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" name="" id=""></td>
-                                <td>Learning React.js</td>
-                                <td>Friday, 13 November 2020 08.00 - 09.40</td>
-                                <td>
-                                    <div class="unfinished">
-                                        Unfinished
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" name="" id=""></td>
-                                <td>UX for Web Design</td>
-                                <td>Friday, 20 November 2020 08.00 - 09.40</td>
-                                <td>
-                                    <div class="unfinished">
-                                        Unfinished
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><input type="checkbox" name="" id=""></td>
-                                <td>Final-term Exam</td>
-                                <td>Friday, 27 November 2020 08.00 - 09.40</td>
-                                <td>
-                                    <div class="unfinished">
-                                        Unfinished
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                </div>
+                <div class="schedule-list">
+                    <div class="layer-time">
+                        <div class="schedule-detail">
+                            <div class="schedule-description">
+                                <div class="description-title">Introduction to Banking Finance</div>
+                                <div class="class-time">100 minutes</div>
+                                <div class="option-description"><img src="/assets/dashboard/List.png" alt="List.png">
+                                </div>
+                                <img src="/assets/dashboard/Finance Icon.png" alt="Finance Icon.png">
+                            </div>
+                            <div class="schedule-description">
+                                <div class="description-title">Trigonometry</div>
+                                <div class="class-time">50 minutes</div>
+                                <div class="option-description"><img src="/assets/dashboard/List.png" alt="List.png">
+                                </div>
+                                <img src="/assets/dashboard/Math Icon.png" alt="Math Icon.png">
+                            </div>
+                        </div>
+                        <div class="shadow-right"></div>
+                        <div class="schedule-time">8.00</div>
+                    </div>
+                    <div class="layer-time">
+                        <div class="schedule-detail">
+                            <div class="schedule-description">
+                                <div class="description-title">History of Europe</div>
+                                <div class="class-time">100 minutes</div>
+                                <div class="option-description"><img src="/assets/dashboard/List.png" alt="List.png">
+                                </div>
+                                <img src="/assets/dashboard/History Icon.png" alt="History Icon.png">
+                            </div>
+                        </div>
+                        <div class="shadow-right"></div>
+                        <div class="schedule-time">11.00</div>
+                    </div>
+                    <div class="layer-time">
+                        <div class="schedule-detail">
+                            <div class="schedule-description">
+                                <div class="description-title">Fundamental of Front End Dev.</div>
+                                <div class="class-time">50 minutes</div>
+                                <div class="option-description"><img src="/assets/dashboard/List.png" alt="List.png">
+                                </div>
+                                <img src="/assets/dashboard/Software Icon.png" alt="Software Icon.png">
+                            </div>
+                            <div class="schedule-description">
+                                <div class="description-title">Molecular Biology</div>
+                                <div class="class-time">50 minutes</div>
+                                <div class="option-description"><img src="/assets/dashboard/List.png" alt="List.png">
+                                </div>
+                                <img src="/assets/dashboard/Science Icon.png" alt="Science Icon.png">
+                            </div>
+                        </div>
+                        <div class="shadow-right"></div>
+                        <div class="schedule-time">13.00</div>
+                    </div>
+                    <div class="finish-label">Finish</div>
                 </div>
             </div>
         </main>
+        <aside id="chat-side" style="overflow-y: auto;">
+            <div class="message-head">
+                Messages
+                <img src="/assets/dashboard/Plus Icon.png" alt="Plus Icon.png">
+            </div>
+            <div class="message-search">
+                <input type="search" name="message_search" id="" placeholder="Search">
+                <label for="message_search"><img src="/assets/Dashboard/Search Icon.png" alt="Search Icon.png"></label>
+            </div>
+            <div class="message-list">
+                <div class="message-detail">
+                    <div class="message-photo"><img src="assets/photo_profile/photo1.png" alt="photo1.png"></div>
+                    <div class="message-spoiler">
+                        <div class="message-name">Nissa Sabyan</div>
+                        <div class="message-text">How about number 3?</div>
+                    </div>
+                    <div class="message-time">10.15 pm</div>
+                </div>
+                <div class="message-detail">
+                    <div class="message-photo"><img src="assets/photo_profile/photo2.png" alt="photo2.png"></div>
+                    <div class="message-spoiler">
+                        <div class="message-name">Rio Dewanto</div>
+                        <div class="message-text">I'm hungry.</div>
+                    </div>
+                    <div class="message-time">9.12 pm</div>
+                </div>
+                <div class="message-detail">
+                    <div class="message-photo"><img src="assets/photo_profile/photo3.png" alt="photo3.png"></div>
+                    <div class="message-spoiler">
+                        <div class="message-name">Discussion Group 21 (5)</div>
+                        <div class="message-text">Nissa : Let’s finish the task for tomorrow</div>
+                    </div>
+                    <div class="message-time">1.23 pm</div>
+                </div>
+                <div class="message-detail">
+                    <div class="message-photo"><img src="assets/photo_profile/photo4.png" alt="photo4.png"></div>
+                    <div class="message-spoiler">
+                        <div class="message-name">Isyana Sarasvati</div>
+                        <div class="message-text">Thanks.</div>
+                    </div>
+                    <div class="message-time">Yesterday</div>
+                </div>
+                <div class="message-detail">
+                    <div class="message-photo"><img src="assets/photo_profile/photo5.png" alt="photo5.png"></div>
+                    <div class="message-spoiler">
+                        <div class="message-name">Tompi</div>
+                        <div class="message-text">See you later!</div>
+                    </div>
+                    <div class="message-time">Yesterday</div>
+                </div>
+                <div class="message-detail">
+                    <div class="message-photo"><img src="assets/photo_profile/photo6.png" alt="photo6.png"></div>
+                    <div class="message-spoiler">
+                        <div class="message-name">You, Tompi, Isyana Sarasvati, Peppy</div>
+                        <div class="message-text">Haha. Yes, I heard before that you and Rosa.</div>
+                    </div>
+                    <div class="message-time">8/10</div>
+                </div>
+                <div class="message-detail">
+                    <div class="message-photo"><img src="assets/photo_profile/photo7.png" alt="photo7.png"></div>
+                    <div class="message-spoiler">
+                        <div class="message-name">Peppy</div>
+                        <div class="message-text">Haha. Me too</div>
+                    </div>
+                    <div class="message-time">7/10</div>
+                </div>
+                <div class="message-detail">
+                    <div class="message-photo"><img src="assets/photo_profile/photo8.png" alt="photo8.png"></div>
+                    <div class="message-spoiler">
+                        <div class="message-name">Sandra Dewi</div>
+                        <div class="message-text">how about number 3?</div>
+                    </div>
+                    <div class="message-time">1/10</div>
+                </div>
+                <div class="message-detail">
+                    <div class="message-photo"><img src="assets/photo_profile/photo9.png" alt="photo9.png"></div>
+                    <div class="message-spoiler">
+                        <div class="message-name">Reza Rahardian</div>
+                        <div class="message-text">I'm hungry.</div>
+                    </div>
+                    <div class="message-time">1/10</div>
+                </div>
+                <div class="message-detail">
+                    <div class="message-photo"><img src="assets/photo_profile/photo10.png" alt="photo10.png"></div>
+                    <div class="message-spoiler">
+                        <div class="message-name">Discussion Group 23 (5)</div>
+                        <div class="message-text">Nissa : Lets finish the task for tomorrow</div>
+                    </div>
+                    <div class="message-time">22/9</div>
+                </div>
+                <div class="message-detail">
+                    <div class="message-photo"><img src="assets/photo_profile/photo11.png" alt="photo11.png"></div>
+                    <div class="message-spoiler">
+                        <div class="message-name">Raissa</div>
+                        <div class="message-text">Thanks.</div>
+                    </div>
+                    <div class="message-time">21/9</div>
+                </div>
+                <div class="message-detail">
+                    <div class="message-photo"><img src="assets/photo_profile/photo12.png" alt="photo12.png"></div>
+                    <div class="message-spoiler">
+                        <div class="message-name">dr. Adrian</div>
+                        <div class="message-text">See you later!</div>
+                    </div>
+                    <div class="message-time">21/9</div>
+                </div>
+                <div class="message-detail">
+                    <div class="message-photo"><img src="assets/photo_profile/photo13.png" alt="photo13.png"></div>
+                    <div class="message-spoiler">
+                        <div class="message-name">Uus</div>
+                        <div class="message-text">Haha. Me too</div>
+                    </div>
+                    <div class="message-time">11/8</div>
+                </div>
+            </div>
+        </aside>
     </div>
     <script src="script/index.js"></script>
 </body>
