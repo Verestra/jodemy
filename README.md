@@ -6,7 +6,7 @@ jodemy is a web-based online course application that can later be used to assist
 ## Features
 ---
 - see profile account detail
-- see chat and headline in Dashboard
+- see chat, headline, schedule in Dashboard
 - see class progress and class description in activity
 - and many more...
 ## Requirments for Development
