@@ -49,6 +49,9 @@ tbody>tr{
     background-color: #fff;
     border-bottom: 2px solid #E6EDF6;
 }
+tbody>tr:hover{
+    cursor: pointer;
+}
 tr>th:first-child{
     padding-left: 20px;
 }
