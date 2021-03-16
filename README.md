@@ -19,9 +19,10 @@ jodemy is a web-based online course application that can later be used to assist
 ## Requirments for Development
 ---
 - HTML & CSS
-- BOOTSTRAP
+- [BOOTSTRAP](https://getbootstrap.com/)
 - Responsive
 - Layout Flexbox and Grid System Bootstrap
+- Deploy to [Netlify](https://www.netlify.com/)
 ## Link Deployment
 ---
 [jodemy.netlify.app](https://jodemy.netlify.app)
