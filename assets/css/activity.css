@@ -162,11 +162,6 @@ tfoot>tr>td>a{
     transform: rotate(0deg);
     z-index: 0;
 }
-/* 
-    p = i/100*360
-    if p<180 => right=p, rigtt z-index=0 && left=0, left z-index=0
-    if p>180 => right=180, right z-index=1 && left= -180-(180-p), left z-index=1
-*/
 /* ============================================ */
 .new-class-register{
     background-color: #57BA61;
