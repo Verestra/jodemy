@@ -18,7 +18,7 @@ jodemy is a web-based online course application that can later be used to assist
 - and many more...
 ## Requirments for Development
 ---
-- HTML & CSS
+- HTML 5  & CSS 3
 - [BOOTSTRAP](https://getbootstrap.com/)
 - Responsive
 - Layout Flexbox and Grid System Bootstrap
