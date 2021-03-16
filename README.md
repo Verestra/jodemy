@@ -13,7 +13,7 @@ jodemy is a web-based online course application that can later be used to assist
 - Layout Flexbox and Grid System Bootstrap
 ## Link Deployment
 ---
-[a link](https://jodemy.netlify.app)
+[jodemy.netlify.app](https://jodemy.netlify.app)
 ## Screenshot
 ---
 Here'e some picture about the project
