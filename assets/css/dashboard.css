@@ -333,6 +333,8 @@ aside::-webkit-scrollbar {
 .message-text{
     font-size: 14px;
     color: #787878;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .message-detail{
     display: flex;
