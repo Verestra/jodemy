@@ -14,9 +14,6 @@ header img{
     background-color: #5784BA;
     color: #fff;
 }
-.menu-profile:hover .notif{
-    filter: invert(0.6);
-}
 .menu_activity{
     background-color: #fff;
     color: #000;

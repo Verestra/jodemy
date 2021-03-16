@@ -87,6 +87,9 @@ main{
     top: 20px;
     right: 10px;
 }
+.menu-profile:hover .notif{
+    filter: invert(0.6);
+}
 .menu-main>.menu-profile:hover,.menu-list>div:hover{
     cursor: pointer;
     background-color: #fff;
