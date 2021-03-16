@@ -89,7 +89,7 @@ main{
 }
 button.eye-visibility{
     position: absolute;
-    top: 64px;
+    top: 60px;
     right: 15px;
     padding: 0;
     text-decoration: none;
